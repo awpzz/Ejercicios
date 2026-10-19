@@ -1,3 +1,5 @@
+package Entrada_y_salida;
+
 import java.util.Locale;
 import java.util.Scanner;
 

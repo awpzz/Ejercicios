@@ -1,3 +1,5 @@
+package Entrada_y_salida;
+
 import java.util.Scanner;
 
 public class ahelloyou {

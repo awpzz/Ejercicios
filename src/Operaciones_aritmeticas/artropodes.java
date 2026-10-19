@@ -1,3 +1,5 @@
+package Operaciones_aritmeticas;
+
 import java.util.Scanner;
 
 public class artropodes {

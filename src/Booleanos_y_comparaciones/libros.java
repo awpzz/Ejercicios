@@ -1,3 +1,5 @@
+package Booleanos_y_comparaciones;
+
 import java.util.Locale;
 import java.util.Scanner;
 

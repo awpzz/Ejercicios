@@ -1,15 +1,16 @@
+package Booleanos_y_comparaciones;
+
 import java.util.Locale;
 import java.util.Scanner;
 
-public class parablas {
+public class majordeedat {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         sc.useLocale(Locale.ENGLISH);
 
-        String palabra1 = sc.nextLine();
-        String palabra2 = sc.nextLine();
+        int edad = sc.nextInt();
 
-        boolean res = palabra1.equals(palabra2);
+        boolean res = edad >= 18;
 
         System.out.println(res);
 
