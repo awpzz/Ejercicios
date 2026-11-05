@@ -10,10 +10,11 @@ public class c2lo2preudelfer {
         int cantidad = sc.nextInt();
         float precio = distancia * 0.35f;
 
-        if (distancia >= 800.0f && cantidad >= 7) {
-            precio * 0.7
+        if (distancia > 800.0f && cantidad > 7) {
+            System.out.println(precio * 0.7f);
         }
-
-
+        else {
+            System.out.println(precio);
+        }
     }
 }
