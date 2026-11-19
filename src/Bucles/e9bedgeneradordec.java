@@ -9,25 +9,28 @@ public class e9bedgeneradordec {
 
         int n1 = sc.nextInt();
         int n2 = sc.nextInt();
+        String res = "CORRECTE";
 
-        if (n1 < n2) {
-            while (n2 != 0) {
-                while (n1 < n2) {
+        while (n2 != 0){
+            if (n1 < n2){
+                n1 = n2;
+                n2 = sc.nextInt();
+            }
+            else {
+                res = "INCORRECTE";
+                break;
+            }
+            if(n2 != 0) {
+                if (n1>n2){
                     n1 = n2;
                     n2 = sc.nextInt();
-                    if (n1 > n2 && n2 != 0) {
-                        n1 = n2;
-                        n2 = sc.nextInt();
-                    } else {
-                        System.out.println("INCORRECTE");
-                        return;
-                    }
+                }
+                else {
+                    res = "INCORRECTE";
+                    break;
                 }
             }
-            System.out.println("CORRECTE");
         }
-        else {
-            System.out.println("INCORRECTE");
-        }
+        System.out.println(res);
     }
 }
